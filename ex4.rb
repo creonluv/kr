@@ -1,8 +1,7 @@
 def ex4_abbr(words)
-  abbreviation = words.map do |word|
+  words.map do |word|
     word[0].upcase
   end.join
-  abbreviation
 end
 
 loop do
