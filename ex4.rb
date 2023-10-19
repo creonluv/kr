@@ -1,7 +1,5 @@
 def ex4_abbr(words)
-  words.map do |word|
-    word[0].upcase
-  end.join
+  words.map { |word| word[0].upcase }.join
 end
 
 loop do
